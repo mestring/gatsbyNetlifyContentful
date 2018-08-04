@@ -27,12 +27,13 @@ class IndexPage extends React.Component {
   render () {
     return (
       <div>
-        <h1>Hi people</h1>
+        <h1>CURIOUSPINKS</h1>
+        <h4>Get to know us</h4>
 
-        <h2>Here's my last gallery:</h2>
+        <h2>Here's our last kittens:</h2>
         <Gallery content={this.props.data.gallery} />
 
-        <h2>Here are my subpages:</h2>
+        <h2>Learn more about us:</h2>
         <LinkList basepath="pages" items={this.props.data.pages.edges} />
         
         <h2>Here are my posts:</h2>
